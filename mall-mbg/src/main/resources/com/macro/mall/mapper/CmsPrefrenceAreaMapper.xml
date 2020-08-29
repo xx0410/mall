@@ -99,8 +99,7 @@
     <include refid="Base_Column_List" />
     from cms_prefrence_area
     <if test="_parameter != null">
-      <include refid="Example_Where_Clause" />
-    </if>
+      <include refid="Example_Where_Clause" />    </if>
     <if test="orderByClause != null">
       order by ${orderByClause}
     </if>

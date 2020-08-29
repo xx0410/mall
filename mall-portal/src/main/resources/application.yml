@@ -49,3 +49,7 @@ rabbitmq:
     name:
       cancelOrder: cancelOrderQueue
 
+jasypt:
+  encryptor:
+    password: emiya
+
